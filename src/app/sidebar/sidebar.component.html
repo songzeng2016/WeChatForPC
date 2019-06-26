@@ -1,0 +1,13 @@
+<div *ngIf="userInfo">
+  <p (click)="toggleShowInfo()">{{userInfo.name}}</p>
+<!--  <img src="{{userInfo.avatar}}" alt="">-->
+  <nav class="navs">
+    <a routerLink="/chats" class="nav">chats</a>
+    <a routerLink="/contacts" class="nav">contacts</a>
+    <a routerLink="/favorites" class="nav">favorites</a>
+  </nav>
+</div>
+
+<div class="info" *ngIf="showInfo">
+  info
+</div>

@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, .app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  .main {
+    flex: 1;
+    display: flex;
+  }
+}
