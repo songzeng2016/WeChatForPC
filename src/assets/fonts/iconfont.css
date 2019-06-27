@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1561603098662'); /* IE9 */
+  src: url('iconfont.eot?t=1561603098662#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPoAAsAAAAACCAAAAObAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDNIMdATYCJAMUCwwABCAFhG0HUhszB8gOJRHBwABmgAFABF/LX/1mZpcQggpRUdiQyocoUaivKFzUKFAaYdCUh7sTJssrv/+XV/1gZhZAzW3ZOo6UXiHpdVhJI+hXqRV4hg5Hu7GQzrm4NE0FCkhdO4tL7QUDGA5QgEoplo6ZiPwDvSj/MHYTQUM8TaDTrGGYg5bRk6GVAkwKRCtlqdAqo1IaskO7UFesLOIVSrSnZ/YWgBf++/EPYtGKpMrAzMPrZgPqfpZ+XMctC5aZQVHAns4AYx0Za0AhbipNLVwUWsPp9P6OtwN0apekn6UfBn349XFdEACfdyBJJ/yHR8iSQtRAZjfYUcKFn6UYIfg5CCHz8xdC4tc6zoc5pwKd6MUt8KHg5/KyJKsLIIx247/c2919oXKapai6weqcuGF0Tw8pn2cKbxO51+KjV5M3nE/edffo0eRln+LuETGxdyTXtlBI5PNyZ+iU1MK7ttB52h66z7ig1ZCYy4lt8nlpgGA6Y+foKZE0hFnxyFxu7o6H+0cWF7eV+je9F3NezOx6JHXnKJyrbKVfHdDmULxi7J6TklPoU5GDHy3/xJ/iT5d/LPItDR2OjZnQdWf1WTa4yu8a0bJ8P7a3Xeunjds7t9d1bDqbgyv8bn5XcBWq/y/rvWzMskkcgNibmJNnLx0qDl269MT5iWYpt+3cuW2c1PvsOW6byNrbXjOMzdAExg6W2ixnpOmKwNbpsoO12UzT/IkCKFcgiF/JAhNnZJnMFmQF5gE057j1XF0AzrvIM3kTgPzO/qfJ8ZDP/+5lLv8cy8sdq/63alvAj4oxfThjGPqc6RzgF4l1Zv/LmsI0AShhcoG6Kq5QIzcpF6is+1OWxG+TNbJt0ItpJCOdMwntRhJI2sxA1m4OXfBrUOmyAbV229BplbC+yxCCE6UDK1ZLEPqdgaTXO2T9bqML/jlURn2HWn9w0Ok8uu7YZSFSbRoJVik2kDYfpXTPNZGWthHZE7E121ZJmsuJEiZ+youioUg+KmAXkynm+HOsGKUmMonnoBbpPGzbHsoSL411GkpSmq0Ih82qN4V0z4E29hGYisIMiGY+JEXncZm0PdWm8PMTYZbZbCrS0NSjlWCEL9U9EhUS6YAWRG6nplu5xjeHJYaiTIiJ8DiQFikRs9k8X5StHpaG6aiQ5IBAVoUwbGV2FYWWlzjvuAM6gSdUkSJHiSpq7dfqHI+kKC5zsO+rFuZcdU77xxhIVZ36w+2UiwEAAA==') format('woff2'),
+  url('iconfont.woff?t=1561603098662') format('woff'),
+  url('iconfont.ttf?t=1561603098662') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1561603098662#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-favorite:before {
+  content: "\e606";
+}
+
+.icon-message:before {
+  content: "\e6f0";
+}
+
+.icon-nav:before {
+  content: "\e628";
+}
+
+.icon-contacts-line:before {
+  content: "\e788";
+}
+

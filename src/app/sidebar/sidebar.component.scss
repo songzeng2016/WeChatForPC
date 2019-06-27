@@ -1,17 +1,45 @@
-.navs {
+.sidebar {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  .nav {
-    margin: 10px 0;
-  }
-}
+  height: 100%;
 
-.info {
-  position: absolute;
-  top: 50px;
-  left: 70px;
-  width: 100px;
-  height: 100px;
-  background: #252723;
+  .avatar {
+    width: 45px;
+    height: 45px;
+    margin: 70px 0 30px;
+  }
+
+  .navs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav {
+      margin: 15px 0;
+      .iconfont {
+        font-size: 25px;
+        color: white;
+      }
+    }
+  }
+
+  .info {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 100px;
+    height: 100px;
+    background: #252723;
+  }
+
+  .icon-nav {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    color: white;
+  }
 }

@@ -1,11 +1,18 @@
-<div *ngIf="userInfo">
-  <p (click)="toggleShowInfo()">{{userInfo.name}}</p>
-<!--  <img src="{{userInfo.avatar}}" alt="">-->
+<div class="sidebar" *ngIf="userInfo">
+  <img class="avatar" src="{{userInfo.avatar}}" alt="">
   <nav class="navs">
-    <a routerLink="/chats" class="nav">chats</a>
-    <a routerLink="/contacts" class="nav">contacts</a>
-    <a routerLink="/favorites" class="nav">favorites</a>
+    <a routerLink="/chats" class="nav">
+      <i class="iconfont icon-message"></i>
+    </a>
+    <a routerLink="/contacts" class="nav">
+      <i class="iconfont icon-contacts-line"></i>
+    </a>
+    <a routerLink="/favorites" class="nav">
+      <i class="iconfont icon-favorite"></i>
+    </a>
   </nav>
+
+  <i class="iconfont icon-nav"></i>
 </div>
 
 <div class="info" *ngIf="showInfo">

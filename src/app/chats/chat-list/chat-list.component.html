@@ -1,1 +1,6 @@
-<p>chat-list works!</p>
+<ul>
+  <li *ngFor="let chat of chatList">
+    <span>{{chat.name}}</span>
+    <span>{{chat.time}}</span>
+  </li>
+</ul>
